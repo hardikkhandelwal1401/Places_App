@@ -8,4 +8,5 @@
 - Add image along with your place
 - See your place in the map using Google Maps API
 - Edit/Update added places
+- Preview your details
 
