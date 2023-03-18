@@ -1,0 +1,118 @@
+[
+    {
+        "merged": "com.example.happyplaces.app-merged_res-35:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.happyplaces.app-main-37:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.happyplaces.app-merged_res-35:/layout_activity_add_happy_place.xml.flat",
+        "source": "com.example.happyplaces.app-main-37:/layout/activity_add_happy_place.xml"
+    },
+    {
+        "merged": "com.example.happyplaces.app-merged_res-35:/drawable_ic_delete_white_24dp.xml.flat",
+        "source": "com.example.happyplaces.app-main-37:/drawable/ic_delete_white_24dp.xml"
+    },
+    {
+        "merged": "com.example.happyplaces.app-merged_res-35:/drawable_detail_screen_image_placeholder.png.flat",
+        "source": "com.example.happyplaces.app-main-37:/drawable/detail_screen_image_placeholder.png"
+    },
+    {
+        "merged": "com.example.happyplaces.app-merged_res-35:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.happyplaces.app-main-37:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.happyplaces.app-merged_res-35:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.happyplaces.app-main-37:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.happyplaces.app-merged_res-35:/layout_activity_main.xml.flat",
+        "source": "com.example.happyplaces.app-main-37:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.happyplaces.app-merged_res-35:/layout_item_happy_place.xml.flat",
+        "source": "com.example.happyplaces.app-main-37:/layout/item_happy_place.xml"
+    },
+    {
+        "merged": "com.example.happyplaces.app-merged_res-35:/drawable_add_screen_image_placeholder.png.flat",
+        "source": "com.example.happyplaces.app-main-37:/drawable/add_screen_image_placeholder.png"
+    },
+    {
+        "merged": "com.example.happyplaces.app-merged_res-35:/layout_activity_happy_place_detail.xml.flat",
+        "source": "com.example.happyplaces.app-main-37:/layout/activity_happy_place_detail.xml"
+    },
+    {
+        "merged": "com.example.happyplaces.app-merged_res-35:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.happyplaces.app-main-37:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.happyplaces.app-merged_res-35:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.happyplaces.app-main-37:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.happyplaces.app-merged_res-35:/drawable_shape_image_view_border.xml.flat",
+        "source": "com.example.happyplaces.app-main-37:/drawable/shape_image_view_border.xml"
+    },
+    {
+        "merged": "com.example.happyplaces.app-merged_res-35:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.happyplaces.app-main-37:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.happyplaces.app-merged_res-35:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.happyplaces.app-main-37:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.happyplaces.app-merged_res-35:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.happyplaces.app-main-37:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.happyplaces.app-merged_res-35:/layout_activity_map.xml.flat",
+        "source": "com.example.happyplaces.app-main-37:/layout/activity_map.xml"
+    },
+    {
+        "merged": "com.example.happyplaces.app-merged_res-35:/drawable_ic_edit_white_24dp.xml.flat",
+        "source": "com.example.happyplaces.app-main-37:/drawable/ic_edit_white_24dp.xml"
+    },
+    {
+        "merged": "com.example.happyplaces.app-merged_res-35:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.happyplaces.app-main-37:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.happyplaces.app-merged_res-35:/drawable_shape_button_rounded.xml.flat",
+        "source": "com.example.happyplaces.app-main-37:/drawable/shape_button_rounded.xml"
+    },
+    {
+        "merged": "com.example.happyplaces.app-merged_res-35:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.happyplaces.app-main-37:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.happyplaces.app-merged_res-35:/mipmap-anydpi-v33_ic_launcher.xml.flat",
+        "source": "com.example.happyplaces.app-main-37:/mipmap-anydpi-v33/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.happyplaces.app-merged_res-35:/xml_backup_rules.xml.flat",
+        "source": "com.example.happyplaces.app-main-37:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.happyplaces.app-merged_res-35:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.happyplaces.app-main-37:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.happyplaces.app-merged_res-35:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.happyplaces.app-main-37:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.happyplaces.app-merged_res-35:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.happyplaces.app-main-37:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.happyplaces.app-merged_res-35:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.happyplaces.app-main-37:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.happyplaces.app-merged_res-35:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.happyplaces.app-pngs-30:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.happyplaces.app-merged_res-35:/drawable_ic_action_add_24dp.xml.flat",
+        "source": "com.example.happyplaces.app-main-37:/drawable/ic_action_add_24dp.xml"
+    }
+]

@@ -1,0 +1,245 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.happyplaces"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/hardikkhandelwal/AndroidStudioProjects/HappyPlaces/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/hardikkhandelwal/AndroidStudioProjects/HappyPlaces/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+11-->/Users/hardikkhandelwal/AndroidStudioProjects/HappyPlaces/app/src/main/AndroidManifest.xml:5:5-80
+11-->/Users/hardikkhandelwal/AndroidStudioProjects/HappyPlaces/app/src/main/AndroidManifest.xml:5:22-77
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->/Users/hardikkhandelwal/AndroidStudioProjects/HappyPlaces/app/src/main/AndroidManifest.xml:6:5-79
+12-->/Users/hardikkhandelwal/AndroidStudioProjects/HappyPlaces/app/src/main/AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->/Users/hardikkhandelwal/AndroidStudioProjects/HappyPlaces/app/src/main/AndroidManifest.xml:7:5-81
+13-->/Users/hardikkhandelwal/AndroidStudioProjects/HappyPlaces/app/src/main/AndroidManifest.xml:7:22-78
+14    <uses-permission android:name="android.permission.CAMERA" />
+14-->/Users/hardikkhandelwal/AndroidStudioProjects/HappyPlaces/app/src/main/AndroidManifest.xml:8:5-65
+14-->/Users/hardikkhandelwal/AndroidStudioProjects/HappyPlaces/app/src/main/AndroidManifest.xml:8:22-62
+15    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+15-->/Users/hardikkhandelwal/AndroidStudioProjects/HappyPlaces/app/src/main/AndroidManifest.xml:9:5-81
+15-->/Users/hardikkhandelwal/AndroidStudioProjects/HappyPlaces/app/src/main/AndroidManifest.xml:9:22-78
+16    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+16-->[com.google.android.libraries.places:places:3.0.0] /Users/hardikkhandelwal/.gradle/caches/transforms-3/f83b35aebb71653bd65975f24aa106ca/transformed/places-3.0.0/AndroidManifest.xml:11:5-76
+16-->[com.google.android.libraries.places:places:3.0.0] /Users/hardikkhandelwal/.gradle/caches/transforms-3/f83b35aebb71653bd65975f24aa106ca/transformed/places-3.0.0/AndroidManifest.xml:11:22-73
+17    <uses-permission android:name="android.permission.INTERNET" /> <!-- Include required permissions for Google Maps API to run. -->
+17-->[com.google.android.libraries.places:places:3.0.0] /Users/hardikkhandelwal/.gradle/caches/transforms-3/f83b35aebb71653bd65975f24aa106ca/transformed/places-3.0.0/AndroidManifest.xml:12:5-67
+17-->[com.google.android.libraries.places:places:3.0.0] /Users/hardikkhandelwal/.gradle/caches/transforms-3/f83b35aebb71653bd65975f24aa106ca/transformed/places-3.0.0/AndroidManifest.xml:12:22-64
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->[com.google.android.gms:play-services-maps:18.1.0] /Users/hardikkhandelwal/.gradle/caches/transforms-3/03c1279fd0c5e3fdf14c14a870e9b703/transformed/play-services-maps-18.1.0/AndroidManifest.xml:23:5-79
+18-->[com.google.android.gms:play-services-maps:18.1.0] /Users/hardikkhandelwal/.gradle/caches/transforms-3/03c1279fd0c5e3fdf14c14a870e9b703/transformed/play-services-maps-18.1.0/AndroidManifest.xml:23:22-76
+19
+20    <uses-feature
+20-->[com.google.android.gms:play-services-maps:18.1.0] /Users/hardikkhandelwal/.gradle/caches/transforms-3/03c1279fd0c5e3fdf14c14a870e9b703/transformed/play-services-maps-18.1.0/AndroidManifest.xml:26:5-28:35
+21        android:glEsVersion="0x00020000"
+21-->[com.google.android.gms:play-services-maps:18.1.0] /Users/hardikkhandelwal/.gradle/caches/transforms-3/03c1279fd0c5e3fdf14c14a870e9b703/transformed/play-services-maps-18.1.0/AndroidManifest.xml:27:9-41
+22        android:required="true" />
+22-->[com.google.android.gms:play-services-maps:18.1.0] /Users/hardikkhandelwal/.gradle/caches/transforms-3/03c1279fd0c5e3fdf14c14a870e9b703/transformed/play-services-maps-18.1.0/AndroidManifest.xml:28:9-32
+23
+24    <queries>
+24-->[com.google.android.gms:play-services-maps:18.1.0] /Users/hardikkhandelwal/.gradle/caches/transforms-3/03c1279fd0c5e3fdf14c14a870e9b703/transformed/play-services-maps-18.1.0/AndroidManifest.xml:30:5-34:15
+25
+26        <!-- Needs to be explicitly declared on Android R+ -->
+27        <package android:name="com.google.android.apps.maps" />
+27-->[com.google.android.gms:play-services-maps:18.1.0] /Users/hardikkhandelwal/.gradle/caches/transforms-3/03c1279fd0c5e3fdf14c14a870e9b703/transformed/play-services-maps-18.1.0/AndroidManifest.xml:33:9-64
+27-->[com.google.android.gms:play-services-maps:18.1.0] /Users/hardikkhandelwal/.gradle/caches/transforms-3/03c1279fd0c5e3fdf14c14a870e9b703/transformed/play-services-maps-18.1.0/AndroidManifest.xml:33:18-61
+28    </queries>
+29
+30    <permission
+30-->[androidx.core:core:1.9.0] /Users/hardikkhandelwal/.gradle/caches/transforms-3/38216f7abb1f6277af09ed74025a86a0/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+31        android:name="com.example.happyplaces.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+31-->[androidx.core:core:1.9.0] /Users/hardikkhandelwal/.gradle/caches/transforms-3/38216f7abb1f6277af09ed74025a86a0/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+32        android:protectionLevel="signature" />
+32-->[androidx.core:core:1.9.0] /Users/hardikkhandelwal/.gradle/caches/transforms-3/38216f7abb1f6277af09ed74025a86a0/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+33
+34    <uses-permission android:name="com.example.happyplaces.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+34-->[androidx.core:core:1.9.0] /Users/hardikkhandelwal/.gradle/caches/transforms-3/38216f7abb1f6277af09ed74025a86a0/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+34-->[androidx.core:core:1.9.0] /Users/hardikkhandelwal/.gradle/caches/transforms-3/38216f7abb1f6277af09ed74025a86a0/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+35
+36    <application
+36-->/Users/hardikkhandelwal/AndroidStudioProjects/HappyPlaces/app/src/main/AndroidManifest.xml:11:5-59:19
+37        android:allowBackup="true"
+37-->/Users/hardikkhandelwal/AndroidStudioProjects/HappyPlaces/app/src/main/AndroidManifest.xml:12:9-35
+38        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+38-->[androidx.core:core:1.9.0] /Users/hardikkhandelwal/.gradle/caches/transforms-3/38216f7abb1f6277af09ed74025a86a0/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+39        android:dataExtractionRules="@xml/data_extraction_rules"
+39-->/Users/hardikkhandelwal/AndroidStudioProjects/HappyPlaces/app/src/main/AndroidManifest.xml:13:9-65
+40        android:debuggable="true"
+41        android:fullBackupContent="@xml/backup_rules"
+41-->/Users/hardikkhandelwal/AndroidStudioProjects/HappyPlaces/app/src/main/AndroidManifest.xml:14:9-54
+42        android:icon="@mipmap/ic_launcher"
+42-->/Users/hardikkhandelwal/AndroidStudioProjects/HappyPlaces/app/src/main/AndroidManifest.xml:15:9-43
+43        android:label="@string/app_name"
+43-->/Users/hardikkhandelwal/AndroidStudioProjects/HappyPlaces/app/src/main/AndroidManifest.xml:16:9-41
+44        android:supportsRtl="true"
+44-->/Users/hardikkhandelwal/AndroidStudioProjects/HappyPlaces/app/src/main/AndroidManifest.xml:17:9-35
+45        android:testOnly="true"
+46        android:theme="@style/Theme.HappyPlaces" >
+46-->/Users/hardikkhandelwal/AndroidStudioProjects/HappyPlaces/app/src/main/AndroidManifest.xml:18:9-49
+47        <activity
+47-->/Users/hardikkhandelwal/AndroidStudioProjects/HappyPlaces/app/src/main/AndroidManifest.xml:20:9-25:15
+48            android:name="com.example.happyplaces.activities.MapActivity"
+48-->/Users/hardikkhandelwal/AndroidStudioProjects/HappyPlaces/app/src/main/AndroidManifest.xml:21:13-51
+49            android:label="HAPPY PLACE APP"
+49-->/Users/hardikkhandelwal/AndroidStudioProjects/HappyPlaces/app/src/main/AndroidManifest.xml:22:13-44
+50            android:screenOrientation="portrait"
+50-->/Users/hardikkhandelwal/AndroidStudioProjects/HappyPlaces/app/src/main/AndroidManifest.xml:23:13-49
+51            android:theme="@style/CustomNoActionBarTheme" />
+51-->/Users/hardikkhandelwal/AndroidStudioProjects/HappyPlaces/app/src/main/AndroidManifest.xml:24:13-58
+52        <!--
+53             TODO: Before you run your application, you need a Google Maps API key.
+54
+55             To get one, follow the directions here:
+56
+57                https://developers.google.com/maps/documentation/android-sdk/get-api-key
+58
+59             Once you have your API key (it starts with "AIza"), define a new property in your
+60             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
+61             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
+62        -->
+63        <meta-data
+63-->/Users/hardikkhandelwal/AndroidStudioProjects/HappyPlaces/app/src/main/AndroidManifest.xml:37:9-39:59
+64            android:name="com.google.android.geo.API_KEY"
+64-->/Users/hardikkhandelwal/AndroidStudioProjects/HappyPlaces/app/src/main/AndroidManifest.xml:38:13-58
+65            android:value="@string/google_maps_api_key" />
+65-->/Users/hardikkhandelwal/AndroidStudioProjects/HappyPlaces/app/src/main/AndroidManifest.xml:39:13-56
+66
+67        <activity
+67-->/Users/hardikkhandelwal/AndroidStudioProjects/HappyPlaces/app/src/main/AndroidManifest.xml:41:9-45:61
+68            android:name="com.example.happyplaces.activities.HappyPlaceDetailActivity"
+68-->/Users/hardikkhandelwal/AndroidStudioProjects/HappyPlaces/app/src/main/AndroidManifest.xml:42:13-64
+69            android:label="HAPPY PLACE DETAILS"
+69-->/Users/hardikkhandelwal/AndroidStudioProjects/HappyPlaces/app/src/main/AndroidManifest.xml:43:13-48
+70            android:screenOrientation="portrait"
+70-->/Users/hardikkhandelwal/AndroidStudioProjects/HappyPlaces/app/src/main/AndroidManifest.xml:44:13-49
+71            android:theme="@style/CustomNoActionBarTheme" />
+71-->/Users/hardikkhandelwal/AndroidStudioProjects/HappyPlaces/app/src/main/AndroidManifest.xml:45:13-58
+72        <activity
+72-->/Users/hardikkhandelwal/AndroidStudioProjects/HappyPlaces/app/src/main/AndroidManifest.xml:46:9-50:61
+73            android:name="com.example.happyplaces.activities.AddHappyPlaceActivity"
+73-->/Users/hardikkhandelwal/AndroidStudioProjects/HappyPlaces/app/src/main/AndroidManifest.xml:47:13-61
+74            android:label="ADD HAPPY PLACE"
+74-->/Users/hardikkhandelwal/AndroidStudioProjects/HappyPlaces/app/src/main/AndroidManifest.xml:48:13-44
+75            android:screenOrientation="portrait"
+75-->/Users/hardikkhandelwal/AndroidStudioProjects/HappyPlaces/app/src/main/AndroidManifest.xml:49:13-49
+76            android:theme="@style/CustomNoActionBarTheme" />
+76-->/Users/hardikkhandelwal/AndroidStudioProjects/HappyPlaces/app/src/main/AndroidManifest.xml:50:13-58
+77        <activity
+77-->/Users/hardikkhandelwal/AndroidStudioProjects/HappyPlaces/app/src/main/AndroidManifest.xml:51:9-58:20
+78            android:name="com.example.happyplaces.activities.MainActivity"
+78-->/Users/hardikkhandelwal/AndroidStudioProjects/HappyPlaces/app/src/main/AndroidManifest.xml:52:13-52
+79            android:exported="true" >
+79-->/Users/hardikkhandelwal/AndroidStudioProjects/HappyPlaces/app/src/main/AndroidManifest.xml:53:13-36
+80            <intent-filter>
+80-->/Users/hardikkhandelwal/AndroidStudioProjects/HappyPlaces/app/src/main/AndroidManifest.xml:54:13-57:29
+81                <action android:name="android.intent.action.MAIN" />
+81-->/Users/hardikkhandelwal/AndroidStudioProjects/HappyPlaces/app/src/main/AndroidManifest.xml:55:17-69
+81-->/Users/hardikkhandelwal/AndroidStudioProjects/HappyPlaces/app/src/main/AndroidManifest.xml:55:25-66
+82
+83                <category android:name="android.intent.category.LAUNCHER" />
+83-->/Users/hardikkhandelwal/AndroidStudioProjects/HappyPlaces/app/src/main/AndroidManifest.xml:56:17-77
+83-->/Users/hardikkhandelwal/AndroidStudioProjects/HappyPlaces/app/src/main/AndroidManifest.xml:56:27-74
+84            </intent-filter>
+85        </activity>
+86        <activity
+86-->[com.karumi:dexter:6.2.3] /Users/hardikkhandelwal/.gradle/caches/transforms-3/f5be0d5d614e0924525ca2389279a48c/transformed/dexter-6.2.3/AndroidManifest.xml:27:9-29:72
+87            android:name="com.karumi.dexter.DexterActivity"
+87-->[com.karumi:dexter:6.2.3] /Users/hardikkhandelwal/.gradle/caches/transforms-3/f5be0d5d614e0924525ca2389279a48c/transformed/dexter-6.2.3/AndroidManifest.xml:28:13-60
+88            android:theme="@style/Dexter.Internal.Theme.Transparent" />
+88-->[com.karumi:dexter:6.2.3] /Users/hardikkhandelwal/.gradle/caches/transforms-3/f5be0d5d614e0924525ca2389279a48c/transformed/dexter-6.2.3/AndroidManifest.xml:29:13-69
+89        <activity
+89-->[com.google.android.libraries.places:places:3.0.0] /Users/hardikkhandelwal/.gradle/caches/transforms-3/f83b35aebb71653bd65975f24aa106ca/transformed/places-3.0.0/AndroidManifest.xml:15:9-21:20
+90            android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
+90-->[com.google.android.libraries.places:places:3.0.0] /Users/hardikkhandelwal/.gradle/caches/transforms-3/f83b35aebb71653bd65975f24aa106ca/transformed/places-3.0.0/AndroidManifest.xml:16:13-91
+91            android:exported="false"
+91-->[com.google.android.libraries.places:places:3.0.0] /Users/hardikkhandelwal/.gradle/caches/transforms-3/f83b35aebb71653bd65975f24aa106ca/transformed/places-3.0.0/AndroidManifest.xml:17:13-37
+92            android:label="@string/places_autocomplete_label"
+92-->[com.google.android.libraries.places:places:3.0.0] /Users/hardikkhandelwal/.gradle/caches/transforms-3/f83b35aebb71653bd65975f24aa106ca/transformed/places-3.0.0/AndroidManifest.xml:18:13-62
+93            android:theme="@style/PlacesAutocompleteOverlay"
+93-->[com.google.android.libraries.places:places:3.0.0] /Users/hardikkhandelwal/.gradle/caches/transforms-3/f83b35aebb71653bd65975f24aa106ca/transformed/places-3.0.0/AndroidManifest.xml:19:13-61
+94            android:windowSoftInputMode="adjustResize" >
+94-->[com.google.android.libraries.places:places:3.0.0] /Users/hardikkhandelwal/.gradle/caches/transforms-3/f83b35aebb71653bd65975f24aa106ca/transformed/places-3.0.0/AndroidManifest.xml:20:13-55
+95        </activity> <!-- Needs to be explicitly declared on P+ -->
+96        <uses-library
+96-->[com.google.android.gms:play-services-maps:18.1.0] /Users/hardikkhandelwal/.gradle/caches/transforms-3/03c1279fd0c5e3fdf14c14a870e9b703/transformed/play-services-maps-18.1.0/AndroidManifest.xml:39:9-41:40
+97            android:name="org.apache.http.legacy"
+97-->[com.google.android.gms:play-services-maps:18.1.0] /Users/hardikkhandelwal/.gradle/caches/transforms-3/03c1279fd0c5e3fdf14c14a870e9b703/transformed/play-services-maps-18.1.0/AndroidManifest.xml:40:13-50
+98            android:required="false" />
+98-->[com.google.android.gms:play-services-maps:18.1.0] /Users/hardikkhandelwal/.gradle/caches/transforms-3/03c1279fd0c5e3fdf14c14a870e9b703/transformed/play-services-maps-18.1.0/AndroidManifest.xml:41:13-37
+99
+100        <activity
+100-->[com.google.android.gms:play-services-base:18.1.0] /Users/hardikkhandelwal/.gradle/caches/transforms-3/3b829130d097e74026c41cdef4d9e918/transformed/play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+101            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+101-->[com.google.android.gms:play-services-base:18.1.0] /Users/hardikkhandelwal/.gradle/caches/transforms-3/3b829130d097e74026c41cdef4d9e918/transformed/play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+102            android:exported="false"
+102-->[com.google.android.gms:play-services-base:18.1.0] /Users/hardikkhandelwal/.gradle/caches/transforms-3/3b829130d097e74026c41cdef4d9e918/transformed/play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+103            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+103-->[com.google.android.gms:play-services-base:18.1.0] /Users/hardikkhandelwal/.gradle/caches/transforms-3/3b829130d097e74026c41cdef4d9e918/transformed/play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+104
+105        <meta-data
+105-->[com.google.android.gms:play-services-basement:18.1.0] /Users/hardikkhandelwal/.gradle/caches/transforms-3/2d181e0a67c717dde430daf6683156f5/transformed/play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+106            android:name="com.google.android.gms.version"
+106-->[com.google.android.gms:play-services-basement:18.1.0] /Users/hardikkhandelwal/.gradle/caches/transforms-3/2d181e0a67c717dde430daf6683156f5/transformed/play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+107            android:value="@integer/google_play_services_version" />
+107-->[com.google.android.gms:play-services-basement:18.1.0] /Users/hardikkhandelwal/.gradle/caches/transforms-3/2d181e0a67c717dde430daf6683156f5/transformed/play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+108
+109        <provider
+109-->[androidx.emoji2:emoji2:1.2.0] /Users/hardikkhandelwal/.gradle/caches/transforms-3/3860fa31eb29b16206d9d78d108867f7/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+110            android:name="androidx.startup.InitializationProvider"
+110-->[androidx.emoji2:emoji2:1.2.0] /Users/hardikkhandelwal/.gradle/caches/transforms-3/3860fa31eb29b16206d9d78d108867f7/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+111            android:authorities="com.example.happyplaces.androidx-startup"
+111-->[androidx.emoji2:emoji2:1.2.0] /Users/hardikkhandelwal/.gradle/caches/transforms-3/3860fa31eb29b16206d9d78d108867f7/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+112            android:exported="false" >
+112-->[androidx.emoji2:emoji2:1.2.0] /Users/hardikkhandelwal/.gradle/caches/transforms-3/3860fa31eb29b16206d9d78d108867f7/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+113            <meta-data
+113-->[androidx.emoji2:emoji2:1.2.0] /Users/hardikkhandelwal/.gradle/caches/transforms-3/3860fa31eb29b16206d9d78d108867f7/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+114                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+114-->[androidx.emoji2:emoji2:1.2.0] /Users/hardikkhandelwal/.gradle/caches/transforms-3/3860fa31eb29b16206d9d78d108867f7/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+115                android:value="androidx.startup" />
+115-->[androidx.emoji2:emoji2:1.2.0] /Users/hardikkhandelwal/.gradle/caches/transforms-3/3860fa31eb29b16206d9d78d108867f7/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+116            <meta-data
+116-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/hardikkhandelwal/.gradle/caches/transforms-3/72f506997ab5f34a1fe10db8a30fcbea/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+117                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+117-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/hardikkhandelwal/.gradle/caches/transforms-3/72f506997ab5f34a1fe10db8a30fcbea/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+118                android:value="androidx.startup" />
+118-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/hardikkhandelwal/.gradle/caches/transforms-3/72f506997ab5f34a1fe10db8a30fcbea/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+119        </provider>
+120
+121        <service
+121-->[com.google.android.datatransport:transport-backend-cct:2.3.0] /Users/hardikkhandelwal/.gradle/caches/transforms-3/f71f5585823ad1f67225cf56c537a173/transformed/transport-backend-cct-2.3.0/AndroidManifest.xml:29:9-35:19
+122            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+122-->[com.google.android.datatransport:transport-backend-cct:2.3.0] /Users/hardikkhandelwal/.gradle/caches/transforms-3/f71f5585823ad1f67225cf56c537a173/transformed/transport-backend-cct-2.3.0/AndroidManifest.xml:30:13-103
+123            android:exported="false" >
+123-->[com.google.android.datatransport:transport-backend-cct:2.3.0] /Users/hardikkhandelwal/.gradle/caches/transforms-3/f71f5585823ad1f67225cf56c537a173/transformed/transport-backend-cct-2.3.0/AndroidManifest.xml:31:13-37
+124            <meta-data
+124-->[com.google.android.datatransport:transport-backend-cct:2.3.0] /Users/hardikkhandelwal/.gradle/caches/transforms-3/f71f5585823ad1f67225cf56c537a173/transformed/transport-backend-cct-2.3.0/AndroidManifest.xml:32:13-34:39
+125                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+125-->[com.google.android.datatransport:transport-backend-cct:2.3.0] /Users/hardikkhandelwal/.gradle/caches/transforms-3/f71f5585823ad1f67225cf56c537a173/transformed/transport-backend-cct-2.3.0/AndroidManifest.xml:33:17-94
+126                android:value="cct" />
+126-->[com.google.android.datatransport:transport-backend-cct:2.3.0] /Users/hardikkhandelwal/.gradle/caches/transforms-3/f71f5585823ad1f67225cf56c537a173/transformed/transport-backend-cct-2.3.0/AndroidManifest.xml:34:17-36
+127        </service>
+128        <service
+128-->[com.google.android.datatransport:transport-runtime:2.2.3] /Users/hardikkhandelwal/.gradle/caches/transforms-3/d235a20d820e147d8647318920e3a31b/transformed/transport-runtime-2.2.3/AndroidManifest.xml:26:9-30:19
+129            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+129-->[com.google.android.datatransport:transport-runtime:2.2.3] /Users/hardikkhandelwal/.gradle/caches/transforms-3/d235a20d820e147d8647318920e3a31b/transformed/transport-runtime-2.2.3/AndroidManifest.xml:27:13-117
+130            android:exported="false"
+130-->[com.google.android.datatransport:transport-runtime:2.2.3] /Users/hardikkhandelwal/.gradle/caches/transforms-3/d235a20d820e147d8647318920e3a31b/transformed/transport-runtime-2.2.3/AndroidManifest.xml:28:13-37
+131            android:permission="android.permission.BIND_JOB_SERVICE" >
+131-->[com.google.android.datatransport:transport-runtime:2.2.3] /Users/hardikkhandelwal/.gradle/caches/transforms-3/d235a20d820e147d8647318920e3a31b/transformed/transport-runtime-2.2.3/AndroidManifest.xml:29:13-69
+132        </service>
+133
+134        <receiver
+134-->[com.google.android.datatransport:transport-runtime:2.2.3] /Users/hardikkhandelwal/.gradle/caches/transforms-3/d235a20d820e147d8647318920e3a31b/transformed/transport-runtime-2.2.3/AndroidManifest.xml:32:9-34:40
+135            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+135-->[com.google.android.datatransport:transport-runtime:2.2.3] /Users/hardikkhandelwal/.gradle/caches/transforms-3/d235a20d820e147d8647318920e3a31b/transformed/transport-runtime-2.2.3/AndroidManifest.xml:33:13-132
+136            android:exported="false" />
+136-->[com.google.android.datatransport:transport-runtime:2.2.3] /Users/hardikkhandelwal/.gradle/caches/transforms-3/d235a20d820e147d8647318920e3a31b/transformed/transport-runtime-2.2.3/AndroidManifest.xml:34:13-37
+137    </application>
+138
+139</manifest>

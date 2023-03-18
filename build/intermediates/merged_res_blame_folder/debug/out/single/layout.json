@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "com.example.happyplaces.app-mergeDebugResources-34:/layout/item_happy_place.xml",
+        "source": "com.example.happyplaces.app-main-37:/layout/item_happy_place.xml"
+    },
+    {
+        "merged": "com.example.happyplaces.app-mergeDebugResources-34:/layout/activity_main.xml",
+        "source": "com.example.happyplaces.app-main-37:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.happyplaces.app-mergeDebugResources-34:/layout/activity_add_happy_place.xml",
+        "source": "com.example.happyplaces.app-main-37:/layout/activity_add_happy_place.xml"
+    },
+    {
+        "merged": "com.example.happyplaces.app-mergeDebugResources-34:/layout/activity_happy_place_detail.xml",
+        "source": "com.example.happyplaces.app-main-37:/layout/activity_happy_place_detail.xml"
+    },
+    {
+        "merged": "com.example.happyplaces.app-mergeDebugResources-34:/layout/activity_map.xml",
+        "source": "com.example.happyplaces.app-main-37:/layout/activity_map.xml"
+    }
+]
